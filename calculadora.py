@@ -3,15 +3,16 @@ class calculadora:
 
     def menu(self):
         print("**Ha elegido calculadora**")
-        print("Que transaccion desea realizar:")
+        print("Que transacción desea realizar:")
         print("1. Suma")
         print("2. Resta")
-        print("3. Multiplicacion")
-        print("4. Divicion")
+        print("3. Multiplicación")
+        print("4. División")
         valor1= int(input("valor:"))
         return valor1
 
 
+    class interfaz:
     def __init__(self):
         self.valor1=int(input("Ingrese primer valor:"))
         self.valor2=int(input("Ingrese segundo valor:"))
